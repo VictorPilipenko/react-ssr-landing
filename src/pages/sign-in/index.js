@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { routes } from "../../constants/routes";
 import {
   Container,
@@ -11,11 +12,15 @@ import {
   FormWrap,
   Icon,
   Text,
-} from "./SigninElements";
+} from "./styles";
 
 function SignIn() {
   return (
     <>
+      <Helmet>
+        <title>{'SSR Landing Sign In'}</title>
+        <meta name="description" content={'Landing Sign In'} />
+      </Helmet>
       <Container>
         <FormWrap>
           <Icon to={routes.home}>Logo</Icon>
