@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import React from 'react'
+import compression from 'compression'
 import express from 'express'
 import Helmet from "react-helmet"
 import ReactDOMServer from 'react-dom/server'
@@ -14,6 +15,7 @@ const router = express.Router()
 const sheet = new ServerStyleSheet()
 
 app.disable("x-powered-by")
+app.use(compression())
 
 const serverRenderer = (req, res, next) => {
   const context = {};
