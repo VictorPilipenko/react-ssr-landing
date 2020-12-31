@@ -1,10 +1,10 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs');
-const React = require('react');
-const Helmet = require("react-helmet").default
-const ReactDOMServer = require('react-dom/server');
-import { StaticRouter } from 'react-router-dom';
+import fs from 'fs'
+import path from 'path'
+import React from 'react'
+import express from 'express'
+import Helmet from "react-helmet"
+import ReactDOMServer from 'react-dom/server'
+import { StaticRouter } from 'react-router-dom'
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components'
 import App from '../src/App'
 
