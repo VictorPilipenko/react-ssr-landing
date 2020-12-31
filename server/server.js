@@ -16,7 +16,6 @@ const sheet = new ServerStyleSheet()
 app.disable("x-powered-by")
 
 const serverRenderer = (req, res, next) => {
-  console.log(req.url)
   const context = {};
   const app = ReactDOMServer.renderToString(
     <StyleSheetManager sheet={sheet.instance}>
