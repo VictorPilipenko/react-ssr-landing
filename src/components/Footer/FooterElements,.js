@@ -102,7 +102,12 @@ export const SocialIcons = styled.div`
   width: 240px;
 `;
 
-export const SocialIconLink = styled.a`
+export const SocialIconLink = styled.a.attrs(props => ({
+  href: props.href ? props.href : '#',
+  rel: 'noopener noreferrer',
+  target: '_blank',
+  'aria-label': props.ariaLabel ? props.ariaLabel : '#',
+}))`
   color: #fff;
   font-size: 24px;
-`;
+`

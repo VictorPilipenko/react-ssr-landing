@@ -9,6 +9,7 @@ import {
   SidebarLink,
   SideBtnWrap,
   SidebarRoute,
+  SidebarItem,
 } from "./SidebarElements";
 
 function Sidebar({ toggle, isOpen }) {
@@ -19,18 +20,26 @@ function Sidebar({ toggle, isOpen }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
-          </SidebarLink>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
-          </SidebarLink>
-          <SidebarLink to="services" onClick={toggle}>
-            Services
-          </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign Up
-          </SidebarLink>
+          <SidebarItem>
+            <SidebarLink to="about" onClick={toggle}>
+              About
+            </SidebarLink>
+          </SidebarItem>
+          <SidebarItem>
+            <SidebarLink to="discover" onClick={toggle}>
+              Discover
+            </SidebarLink>
+          </SidebarItem>
+          <SidebarItem>
+            <SidebarLink to="services" onClick={toggle}>
+              Services
+            </SidebarLink>
+          </SidebarItem>
+          <SidebarItem>
+            <SidebarLink to="signup" onClick={toggle}>
+              Sign Up
+            </SidebarLink>
+          </SidebarItem>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to={routes.signIn}>Sign In</SidebarRoute>

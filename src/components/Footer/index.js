@@ -76,19 +76,19 @@ function Footer() {
               Logo © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href={routes.home} target="_blank" arial-label="Facebook">
+              <SocialIconLink href={routes.home} ariaLabel="Facebook">
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href={routes.home} target="_blank" arial-label="Youtube">
+              <SocialIconLink href={routes.home} ariaLabel="Youtube">
                 <FaYoutube />
               </SocialIconLink>
-              <SocialIconLink href={routes.home} target="_blank" arial-label="Instagram">
+              <SocialIconLink href={routes.home} ariaLabel="Instagram">
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href={routes.home} target="_blank" arial-label="Twitter">
+              <SocialIconLink href={routes.home} ariaLabel="Twitter">
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href={routes.home} target="_blank" arial-label="LinkedIn">
+              <SocialIconLink href={routes.home} ariaLabel="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>

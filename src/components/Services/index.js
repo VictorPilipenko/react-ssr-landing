@@ -15,21 +15,21 @@ function Services() {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={'/images/svg-6.svg'} />
+          <ServicesIcon src={'/images/svg-6.svg'} alt="Reduce expenses" />
           <ServicesH2>Reduce expenses</ServicesH2>
           <ServicesP>
             We Help Reduce your fees and increase your overall revenue.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={'/images/svg-4.svg'} />
+          <ServicesIcon src={'/images/svg-4.svg'} alt="Virtual Maintenance" />
           <ServicesH2>Virtual Maintenance</ServicesH2>
           <ServicesP>
             You can access our platform online anywhere in the world.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={'/images/svg-5.svg'} />
+          <ServicesIcon src={'/images/svg-5.svg'} alt="SEOs" />
           <ServicesH2>SEOs</ServicesH2>
           <ServicesP>
             Unlocks a special ability to get more customers by Search Engine

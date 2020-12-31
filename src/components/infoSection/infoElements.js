@@ -52,7 +52,7 @@ export const TextWrapper = styled.div`
   padding-bottom: 60px;
 `;
 export const TopLine = styled.p`
-  color: #6c63ff;
+  color: ${({ lightText }) => (lightText ? "#f7f8f8" : "#010606")};
   font-size: 16px;
   line-height: 16px;
   font-weigth: 800;
