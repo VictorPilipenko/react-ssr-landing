@@ -7,7 +7,7 @@ import Helmet from "react-helmet"
 import ReactDOMServer from 'react-dom/server'
 import { StaticRouter } from 'react-router-dom'
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components'
-import App from '../src/App'
+import App from '../src/app'
 
 const PORT = 4000
 const app = express()
